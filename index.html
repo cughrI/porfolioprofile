@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0b0c">
+    <meta name="description" content="Carl Sherwin C. Pumaras is a digital designer and front-end developer building thoughtful experiences for the web.">
+    <title>Carl Sherwin C. Pumaras — Digital Designer & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="preloader" aria-hidden="true">
+      <div class="preloader-top">
+        <span class="eyebrow">Independent designer & developer</span>
+        <span class="preloader-count">000</span>
+      </div>
+      <p class="preloader-name"><span class="preloader-line" data-text="Carl Sherwin"></span><span class="preloader-line preloader-second" data-text="C. Pumaras"></span></p>
+      <div class="preloader-track"><span></span></div>
+      <span class="preloader-bottom eyebrow">A little patience goes a long way</span>
+    </div>
+
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Carl Sherwin, home">C<span>.</span>S</a>
+        <span class="header-location"><span class="status-dot"></span> Available for select projects</span>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-toggle-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </header>
+
+      <nav class="site-menu" id="site-menu" aria-label="Main navigation" aria-hidden="true">
+        <div class="menu-top eyebrow"><span>Find your way</span><span>Menu / 01—04</span></div>
+        <div class="menu-links">
+          <a href="#work"><span>01</span>Selected work<i>↗</i></a>
+          <a href="#services"><span>02</span>What I do<i>↗</i></a>
+          <a href="#about"><span>03</span>A little about me<i>↗</i></a>
+          <a href="#contact"><span>04</span>Say hello<i>↗</i></a>
+        </div>
+        <div class="menu-bottom eyebrow"><span>Based in the Philippines</span><span>Working everywhere</span></div>
+      </nav>
+
+      <main id="main">
+        <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+          <div class="hero-kicker eyebrow reveal"><span>Portfolio / 2025—26</span><span>Digital craft, made human</span></div>
+          <h1 id="hero-title" class="hero-title">
+            <span class="hero-line"><span>Designing</span></span>
+            <span class="hero-line hero-line-indent"><span>for the <em>feeling.</em></span></span>
+          </h1>
+          <div class="hero-bottom">
+            <p class="hero-copy reveal">I’m Carl — a digital designer and front-end developer creating thoughtful identities and expressive experiences for the web.</p>
+            <a class="round-link magnetic reveal" href="#contact" aria-label="Get in touch">
+              <span>Let’s<br>talk</span><i aria-hidden="true">↘</i>
+            </a>
+            <a class="scroll-cue eyebrow reveal" href="#work"><span class="scroll-cue-line"></span> Scroll to explore</a>
+          </div>
+          <div class="hero-orbit" aria-hidden="true"><span>DESIGN WITH INTENTION • BUILD WITH CARE • </span></div>
+        </section>
+
+        <section class="work section-wrap" id="work" aria-labelledby="work-title">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-index">01</span> A few good things</p>
+            <h2 id="work-title">Selected<br><span>work<span class="accent-dot">.</span></span></h2>
+            <p class="section-aside">A collection of digital worlds, built with curiosity and care.</p>
+          </div>
+          <div class="project-grid">
+            <a class="project-card project-large reveal" href="#project" data-project="northstar" aria-label="View Northstar — Brand platform project">
+              <div class="project-image image-northstar">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85" alt="A quiet blue-hour mountain landscape beneath a starry sky" loading="lazy">
+                <span class="project-view">View <i aria-hidden="true">↗</i></span>
+                <span class="project-number eyebrow">01 / 04</span>
+              </div>
+              <div class="project-meta"><h3>Northstar</h3><span>Brand platform · 2025</span></div>
+              <p class="project-type">Identity / Digital experience</p>
+            </a>
+            <a class="project-card project-offset reveal" href="#project" data-project="formandfield" aria-label="View Form & Field — E-commerce project">
+              <div class="project-image image-form">
+                <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85" alt="Warm, minimal interior with a sculptural chair and natural materials" loading="lazy">
+                <span class="project-view">View <i aria-hidden="true">↗</i></span>
+                <span class="project-number eyebrow">02 / 04</span>
+              </div>
+              <div class="project-meta"><h3>Form & Field</h3><span>Digital flagship · 2025</span></div>
+              <p class="project-type">E-commerce / Art direction</p>
+            </a>
+            <a class="project-card project-offset-left reveal" href="#project" data-project="solace" aria-label="View Solace — Wellness app project">
+              <div class="project-image image-solace">
+                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=85" alt="Soft morning light over a misty green hillside" loading="lazy">
+                <span class="project-view">View <i aria-hidden="true">↗</i></span>
+                <span class="project-number eyebrow">03 / 04</span>
+              </div>
+              <div class="project-meta"><h3>Solace</h3><span>Wellness, reimagined · 2024</span></div>
+              <p class="project-type">Product design / Development</p>
+            </a>
+            <a class="project-card reveal" href="#project" data-project="stilllife" aria-label="View Still Life — Culture journal project">
+              <div class="project-image image-stilllife">
+                <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1400&q=85" alt="Sunlit architectural forms casting graphic shadows" loading="lazy">
+                <span class="project-view">View <i aria-hidden="true">↗</i></span>
+                <span class="project-number eyebrow">04 / 04</span>
+              </div>
+              <div class="project-meta"><h3>Still Life</h3><span>Culture journal · 2024</span></div>
+              <p class="project-type">Editorial / Web design</p>
+            </a>
+          </div>
+          <div class="work-foot eyebrow reveal"><span>Selected projects / 2024—26</span><span>Small teams, big feelings</span></div>
+        </section>
+
+        <section class="services section-wrap" id="services" aria-labelledby="services-title">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-index">02</span> Thoughtful from start to finish</p>
+            <h2 id="services-title">Ways we<br><span>can work<span class="accent-dot">.</span></span></h2>
+            <p class="section-aside">From the first sketch to the final little detail.</p>
+          </div>
+          <div class="service-list">
+            <details class="service-item reveal">
+              <summary><span class="service-number eyebrow">01</span><span class="service-name">Digital design</span><span class="service-summary">Websites, products & all the in-between</span><span class="service-arrow" aria-hidden="true">↗</span></summary>
+              <p>Clear, considered digital experiences that make the complex feel effortless — from early wireframes to a fully realized interface.</p>
+            </details>
+            <details class="service-item reveal">
+              <summary><span class="service-number eyebrow">02</span><span class="service-name">Development</span><span class="service-summary">Fast, expressive & built to last</span><span class="service-arrow" aria-hidden="true">↗</span></summary>
+              <p>Thoughtful front-end development that gives every idea a solid foundation, with careful attention to speed, access, and the details.</p>
+            </details>
+            <details class="service-item reveal">
+              <summary><span class="service-number eyebrow">03</span><span class="service-name">Visual identity</span><span class="service-summary">A feeling people remember</span><span class="service-arrow" aria-hidden="true">↗</span></summary>
+              <p>Distinctive visual systems that help good ideas find their voice — strategy, typography, color, and a little room to play.</p>
+            </details>
+            <details class="service-item reveal">
+              <summary><span class="service-number eyebrow">04</span><span class="service-name">Motion & detail</span><span class="service-summary">The little things that make it move</span><span class="service-arrow" aria-hidden="true">↗</span></summary>
+              <p>Purposeful interactions and subtle motion that make digital spaces feel more alive, without getting in the way.</p>
+            </details>
+          </div>
+        </section>
+
+        <section class="about section-wrap" id="about" aria-labelledby="about-title">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-index">03</span> The person behind the pixels</p>
+            <h2 id="about-title">A bit about<br><span>the human<span class="accent-dot">.</span></span></h2>
+          </div>
+          <div class="about-grid">
+            <div class="portrait-wrap reveal" data-cursor="Hello">
+              <div class="portrait-frame">
+                <img src="assets/carl-sherwin.png" alt="Portrait of Carl Sherwin C. Pumaras" loading="lazy">
+              </div>
+              <span class="portrait-caption eyebrow">Carl Sherwin C. Pumaras / The human, unfiltered</span>
+            </div>
+            <div class="about-copy reveal">
+              <p class="about-lede">I make digital things feel a little more <em>human.</em></p>
+              <p>I’m Carl Sherwin C. Pumaras, an independent designer and front-end developer from the Philippines. I bring thoughtful design and careful code together to make experiences people enjoy spending time with.</p>
+              <p>Good work, to me, is equal parts curiosity and care: asking better questions, sweating the small stuff, and always making room for a little delight.</p>
+              <div class="about-links" aria-label="Find and contact Carl">
+                <a href="https://www.instagram.com/_cughrl/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+                <a href="https://www.linkedin.com/in/pumaras-carl-sherwin-948a40374/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                <a href="mailto:pumaras.carlsherwin07@gmail.com">Email <span aria-hidden="true">↗</span></a>
+                <a href="tel:+639662244238">Call <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="skills-marquee" aria-label="Skills: Digital design, front-end development, visual identity, art direction, motion, accessibility">
+            <div class="skills-track" aria-hidden="true">
+              <span>Digital design <i>✳</i> Front-end development <i>✳</i> Visual identity <i>✳</i> Art direction <i>✳</i> Motion <i>✳</i> Accessibility <i>✳</i></span>
+              <span>Digital design <i>✳</i> Front-end development <i>✳</i> Visual identity <i>✳</i> Art direction <i>✳</i> Motion <i>✳</i> Accessibility <i>✳</i></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+          <div class="contact-top eyebrow reveal"><span><span class="status-dot"></span> Have a good one in mind?</span><span>04 / The next chapter</span></div>
+          <h2 class="contact-title reveal" id="contact-title">Let’s make<br><em>something</em><br>matter<span class="accent-dot">.</span></h2>
+          <div class="contact-bottom">
+            <div class="contact-methods reveal">
+              <a class="email-link magnetic" href="mailto:pumaras.carlsherwin07@gmail.com">pumaras.carlsherwin07@gmail.com <span aria-hidden="true">↗</span></a>
+              <a class="phone-link" href="tel:+639662244238">09662444238 <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="footer-meta reveal">
+              <div><span class="eyebrow">Elsewhere</span><a href="https://www.instagram.com/_cughrl/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/in/pumaras-carl-sherwin-948a40374/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+              <div><span class="eyebrow">Local time / Philippines</span><span id="local-time">--:-- --</span></div>
+              <button class="back-top" type="button">Back to top <span aria-hidden="true">↑</span></button>
+            </div>
+          </div>
+          <footer class="site-footer eyebrow"><span>© <span id="current-year">2026</span> Carl Sherwin C. Pumaras</span><span>Made with intention <i>✳</i></span><span>Designed to feel a little different</span></footer>
+        </section>
+      </main>
+    </div>
+
+    <div class="custom-cursor" aria-hidden="true"><span>View</span></div>
+
+    <dialog class="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-backdrop"></div>
+      <div class="dialog-panel">
+        <button class="dialog-close" type="button" aria-label="Close project details">Close <span aria-hidden="true">×</span></button>
+        <p class="eyebrow dialog-kicker">Selected project / <span></span></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-type"></p>
+        <p class="dialog-description"></p>
+        <div class="dialog-note eyebrow">A concept project — replace with your real case study details.</div>
+      </div>
+    </dialog>
+  </body>
+</html>
